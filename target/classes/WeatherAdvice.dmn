@@ -47,85 +47,85 @@
     </dmn:informationRequirement>
     <dmn:decisionTable id="_37D35401-A796-414F-8035-A88A5E288392" hitPolicy="FIRST" preferredOrientation="Rule-as-Row">
       <dmn:input id="_8F781C6D-39D3-4D24-A8FB-1892FCC4114F">
-        <dmn:inputExpression id="_697F23BD-59D6-434C-B653-886C4425068F" typeRef="number">
+        <dmn:inputExpression id="_01B11B64-D93A-48F8-B832-799C96C0C201" typeRef="number">
           <dmn:text>Weather.rainForecast</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
       <dmn:input id="_F5BB6BE1-6905-4FE6-BC3E-4BFA8EA03B75">
-        <dmn:inputExpression id="_3B05686A-B3D8-4615-8681-451BB94EFB88" typeRef="string">
+        <dmn:inputExpression id="_33409CCA-59CD-4515-959D-D9238C9680D2" typeRef="string">
           <dmn:text>Weather.temperature</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
       <dmn:input id="_7A180C2B-7A47-4763-BCFD-ACF303DDBE05">
-        <dmn:inputExpression id="_8605EAD1-110A-4BCB-8292-D9D984729C01" typeRef="boolean">
+        <dmn:inputExpression id="_1C2BBCD4-25D4-4546-89CB-81DFEAC3BF5B" typeRef="boolean">
           <dmn:text>Weather.stormAlert</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
       <dmn:output id="_5A5A02BB-E105-4193-9318-4923B3BA0135"/>
       <dmn:annotation name="annotation-1"/>
       <dmn:rule id="_02D22FB6-CB19-4F7C-A570-F937CFE58330">
-        <dmn:inputEntry id="_40957827-8D3E-4B4C-8373-F7AB8D208CF9">
+        <dmn:inputEntry id="_B6E89AFD-E209-4934-90AD-AC7F16F32B60">
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
-        <dmn:inputEntry id="_C862B0E7-1351-4371-8301-EF11676D1E4C">
+        <dmn:inputEntry id="_3D7F3A92-5220-42C3-993E-62B2F9E5DFFE">
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
-        <dmn:inputEntry id="_635DB7AE-0199-484E-8159-5855DFD3D8D2">
+        <dmn:inputEntry id="_9475EA1D-5135-4CD6-9C2D-2091557A26E4">
           <dmn:text>true</dmn:text>
         </dmn:inputEntry>
-        <dmn:outputEntry id="_BEE7C596-874B-4CC5-A2BB-0FAF7997C94E">
-          <dmn:text>"Stay home! There is a storm alert."</dmn:text>
+        <dmn:outputEntry id="_3478E224-90F8-4A7F-88DC-34B9610172AC">
+          <dmn:text>"Stay home! There is a storm alert Changes."</dmn:text>
         </dmn:outputEntry>
         <dmn:annotationEntry>
           <dmn:text/>
         </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_567A6D8E-612D-4E65-B689-D76F46CCA227">
-        <dmn:inputEntry id="_8D58602A-2D18-4568-BEEE-453ED73E17DA">
+        <dmn:inputEntry id="_D6CDDC87-6D40-4C10-8532-8BE137BBB4E0">
           <dmn:text>[0..20)</dmn:text>
         </dmn:inputEntry>
-        <dmn:inputEntry id="_0A01C2E6-DE83-4EDC-B339-27744CDB63DB">
+        <dmn:inputEntry id="_AEE0E819-8D05-49DD-823E-CA5B963C2D7F">
           <dmn:text>"cold"</dmn:text>
         </dmn:inputEntry>
-        <dmn:inputEntry id="_D456C3EA-73D7-408D-B29D-25691CEDC687">
+        <dmn:inputEntry id="_57E78378-C756-4FD8-BD5C-CEB5E1205C4D">
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
-        <dmn:outputEntry id="_BCCC70D2-86C9-440C-A338-1845DA51223F">
-          <dmn:text>"Cold day. Take a coat."</dmn:text>
+        <dmn:outputEntry id="_37AF3714-4F1D-4279-9771-5EF0C20FEF39">
+          <dmn:text>"Cold day. Take a coat. Changes"</dmn:text>
         </dmn:outputEntry>
         <dmn:annotationEntry>
           <dmn:text/>
         </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_64AF6E30-4851-4F2F-BDB5-89E6E7926A6D">
-        <dmn:inputEntry id="_8325ECE2-92AF-476D-AFF2-93BB46A4A721">
+        <dmn:inputEntry id="_B353DA44-2AD7-469D-AECC-BAFA80B44CD7">
           <dmn:text>[20..80)</dmn:text>
         </dmn:inputEntry>
-        <dmn:inputEntry id="_CB68EC0E-C7F8-40FD-A9E0-8B445D7731C9">
+        <dmn:inputEntry id="_B127DF67-DAC9-4CDD-B8CC-72BA8921E157">
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
-        <dmn:inputEntry id="_382972D7-78F0-4E0D-AE53-6EFEF1BF7B19">
+        <dmn:inputEntry id="_09E104E9-7021-41A2-A271-64BCD1F1EB28">
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
-        <dmn:outputEntry id="_D38D2EF4-A375-4A05-9776-80324FB97E19">
-          <dmn:text>"Risk of rain. Might need an umbrella."</dmn:text>
+        <dmn:outputEntry id="_1D41EDEA-1A4C-443B-9581-B36388BA9443">
+          <dmn:text>"Risk of rain. Might need an umbrella Changes."</dmn:text>
         </dmn:outputEntry>
         <dmn:annotationEntry>
           <dmn:text/>
         </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_B87BE95C-6971-4E16-9E36-A18AC10D8604">
-        <dmn:inputEntry id="_EE90581F-A0E9-40AF-B93F-D9FAA0CEF8DF">
+        <dmn:inputEntry id="_19F45F56-95A8-4EA1-9DA3-B8C1AC9EC087">
           <dmn:text>[80..100]</dmn:text>
         </dmn:inputEntry>
-        <dmn:inputEntry id="_893D5420-AE00-40A4-91AE-A6DD73E19159">
+        <dmn:inputEntry id="_E51E7D14-C601-4D8E-8E4B-29892CE0C86F">
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
-        <dmn:inputEntry id="_92D7DB2B-7C90-4079-B594-D56DF2784CC5">
+        <dmn:inputEntry id="_DC95DE42-7446-4484-A7F0-2EB9EBA27D85">
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
-        <dmn:outputEntry id="_596EF42A-AAAF-4A0A-B5CB-ED9524BFD370">
-          <dmn:text>"Rainy day. Take an umbrella"</dmn:text>
+        <dmn:outputEntry id="_A328B178-5F9E-45B7-9984-113D173AABBB">
+          <dmn:text>"Rainy day. Take an umbrella Changes."</dmn:text>
         </dmn:outputEntry>
         <dmn:annotationEntry>
           <dmn:text/>
@@ -147,7 +147,7 @@
             <kie:width>50</kie:width>
             <kie:width>305</kie:width>
             <kie:width>187</kie:width>
-            <kie:width>442</kie:width>
+            <kie:width>134</kie:width>
             <kie:width>379</kie:width>
             <kie:width>928</kie:width>
           </kie:ComponentWidths>
